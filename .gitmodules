@@ -8,7 +8,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_pr.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = false
 
 # sky130_fd_sc_hd
 [submodule "libraries/sky130_fd_sc_hd/latest"]
@@ -23,7 +22,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hdll.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_sc_hs
 [submodule "libraries/sky130_fd_sc_hs/latest"]
@@ -31,7 +29,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hs.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_sc_ms
 [submodule "libraries/sky130_fd_sc_ms/latest"]
@@ -39,7 +36,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_ms.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_sc_ls
 [submodule "libraries/sky130_fd_sc_ls/latest"]
@@ -47,7 +43,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_ls.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_sc_lp
 [submodule "libraries/sky130_fd_sc_lp/latest"]
@@ -55,7 +50,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_lp.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_sc_hvl
 [submodule "libraries/sky130_fd_sc_hvl/latest"]
@@ -63,7 +57,6 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hvl.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 # sky130_fd_io
 [submodule "libraries/sky130_fd_io/latest"]
@@ -71,10 +64,11 @@
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_io.git
 	branch = main
 	shallow = true
-	fetchRecurseSubmodules = true
 
 #sky130_fd_pr_reram
 [submodule "libraries/sky130_fd_pr_reram/latest"]
 	path = libraries/sky130_fd_pr_reram/latest
 	url = https://github.com/google/skywater-pdk-libs-sky130_fd_pr_reram.git
 	branch = main
+	shallow = true
+
